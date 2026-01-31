@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Derma AI</title>
+  <link rel="stylesheet" href="/static/css/style.css" />
+</head>
+<body>
+
+<header class="top-bar">
+  <div class="logo">Derma AI 🩺</div>
+
+  <div class="top-actions">
+    <button class="top-btn" id="aboutBtn">About</button>
+    <button class="top-btn" id="themeToggle">🌙</button>
+  </div>
+</header>
+
+<main>
+
+  <!-- Upload Section -->
+  <section class="upload-section">
+    <div class="upload-box" id="uploadBox">
+      <input type="file" id="imageInput" hidden />
+      <div class="upload-text">
+        <span id="uploadIcon">⬆️</span><br />
+        <span id="uploadLabel">UPLOAD IMAGE</span>
+      </div>
+    </div>
+
+    <button id="submitBtn">SUBMIT</button>
+  </section>
+
+  <!-- Report -->
+  <section class="report-section hidden" id="reportSection">
+    <h2>Your Report</h2>
+
+    <div class="glass-table">
+      <table>
+        <tr><td>Disease Name</td><td id="diseaseName"></td></tr>
+        <tr><td>Description</td><td id="desc"></td></tr>
+        <tr><td>Symptoms</td><td id="sym"></td></tr>
+        <tr><td>Treatment</td><td id="cure"></td></tr>
+        <tr><td>Home Care</td><td id="home"></td></tr>
+        <tr><td>Severity Score</td><td id="sevScore"></td></tr>
+        <tr><td>Severity Level</td><td id="sevLevel"></td></tr>
+        <tr><td>Warning</td><td id="warn"></td></tr>
+      </table>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  Note: This is not 100% accurate and is based on AI & ML.
+</footer>
+
+<!-- ABOUT POPUP -->
+<div class="about-popup hidden" id="aboutPopup">
+  <div class="about-card">
+    <h3>About Derma AI</h3>
+    <p><b>Tech Stack:</b> Python, Flask, PyTorch, HTML, CSS, JavaScript</p>
+    <p><b>Workflow:</b> Image → CNN → Agentic Doctor → Report</p>
+    <p><b>Author:</b> Raunak Shukla</p>
+    <button class="top-btn" id="closeAbout">Close</button>
+  </div>
+</div>
+
+<script src="/static/js/main.js"></script>
+</body>
+</html>

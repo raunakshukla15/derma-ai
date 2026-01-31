@@ -1,0 +1,32 @@
+{
+  "acne": {
+    "symptoms": "Pimples, blackheads, whiteheads",
+    "description": "Inflammation of oil glands and hair follicles",
+    "cure": "Topical retinoids, benzoyl peroxide",
+    "consult_doctor_when": "Severe acne, scarring, or no improvement"
+  },
+  "eczema": {
+    "symptoms": "Red, itchy, dry, cracked skin",
+    "description": "Chronic inflammatory skin condition",
+    "cure": "Moisturizers, corticosteroid creams",
+    "consult_doctor_when": "Bleeding skin or signs of infection"
+  },
+  "psoriasis": {
+    "symptoms": "Red patches with silvery scales",
+    "description": "Autoimmune skin disorder",
+    "cure": "Phototherapy, topical steroids",
+    "consult_doctor_when": "Joint pain or large body area affected"
+  },
+  "ringworm": {
+    "symptoms": "Circular red itchy rash",
+    "description": "Fungal skin infection",
+    "cure": "Antifungal creams",
+    "consult_doctor_when": "Spreading or persistent infection"
+  },
+  "scabies": {
+    "symptoms": "Severe itching, tiny bumps or burrows",
+    "description": "Skin infestation caused by mites",
+    "cure": "Permethrin cream or ivermectin",
+    "consult_doctor_when": "No relief after treatment or family spread"
+  }
+}

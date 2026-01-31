@@ -1,4 +1,8 @@
-LIVE DEMO : https://huggingface.co/spaces/raunakshukl15/derma-ai
+LIVE DEMO :
+
+Website : https://huggingface.co/spaces/raunakshukl15/derma-ai
+
+Youtube : https://youtu.be/VazPJc7GJ24?si=TDVZXt9qHOHNwS97
 
 Derma AI 🩺
 

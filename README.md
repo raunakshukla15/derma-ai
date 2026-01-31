@@ -28,4 +28,23 @@ Install dependencies: pip install -r requirements.txt
 Run the application in Terminal : python app.py
 Open http://127.0.0.1:7860 in your browser
 
+~ IMPORTANT ~
+Current Model Scope
+
+This version of "Derma AI" supports detection of Only the following 5 skin diseases.
+
+- Ringworm  
+- Psoriasis  
+- Scabies  
+- Eczema  
+- Acne  
+
+**Note**
+The model is trained only on these conditions.
+Uploading images of other skin diseases may produce.
+*incorrect or unreliable results*.
+
+Future updates will expand disease coverage ✅
+
+
 Disclaimer : This application is not a medical diagnosis tool. Always consult a qualified healthcare professional for medical advice.
